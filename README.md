@@ -10,7 +10,8 @@ Any server/virtual machine with node.js 0.12 and npm installed. An SSL certifica
 ## Install
 Short process - download and install dependencies.
 ```bash
-git clone 
+cd /var
+git clone https://github.com/davefinster/cloudstub.git
 cd cloudstub
 npm install
 ```
