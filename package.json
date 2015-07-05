@@ -1,13 +1,10 @@
 {
   "name": "cloudportal",
   "version": "0.0.1",
-  "description": "Monitoring dashboard for SmartOS hosts",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
   "keywords": [
-    "smartos"
+    "silverpeak"
   ],
   "author": "Dave Finster <davefinster@me.com>",
   "license": "MIT",
