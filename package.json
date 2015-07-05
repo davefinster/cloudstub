@@ -1,0 +1,23 @@
+{
+  "name": "cloudportal",
+  "version": "0.0.1",
+  "description": "Monitoring dashboard for SmartOS hosts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "smartos"
+  ],
+  "author": "Dave Finster <davefinster@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "debug": "2.0.0",
+    "restify":"3.0.3",
+    "tcp-ping":"0.1.1",
+    "async":"1.3.0",
+    "netmask":"1.0.5",
+    "node-whois":"2.1.0"
+  }
+}
