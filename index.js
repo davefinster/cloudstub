@@ -19,6 +19,12 @@ server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
 
+server.post('/portal/apis/public/rest/stats/updateStats', function (req, response, next){
+	jsonClient.post('/portal/apis/public/rest/stats/updateStats', req.params, function(err, req, res, obj) {
+		response.send(obj);
+	});
+});
+
 server.post('/portal/apis/public/rest/hello', function (req, response, next){
 	jsonClient.post('/portal/apis/public/rest/hello', req.params, function(err, req, res, obj) {
 		console.log(obj);
